@@ -97,3 +97,15 @@
 }
 
 /* item containers */
+
+/* Reviewitemdetaisl */
+.review-container{
+    margin-left: 20px;
+}
+
+.review-product{
+    width: 80%;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+}

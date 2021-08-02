@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../../images/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -11,9 +12,9 @@ const Header = () => {
             </div>
             <div className="navbar">
                 <nav>
-                    <a href="/shop">Shop</a>
-                    <a href="/review">Order Review</a>
-                    <a href="/manage">Manage Inventory</a>
+                    <NavLink to="/shop">Shop</NavLink>
+                    <NavLink to="/review">Order Review</NavLink>
+                    <NavLink to="/inventory">Manage Inventory</NavLink>
                 </nav>
             </div>
             <div className="search-container">
