@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
+.banner-logo{
+    text-align: center;
+}
+.banner-logo img{
+    height: 80px;
+}
+.navbar{
+    background-color: black;
+}
+.navbar nav{
+    padding: 10px;
+}
+.navbar nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 10px 16px;
+    font-size: 19px;
+}
+.navbar nav a:hover{
+    margin-left: 20px;
+    background-color: gray;
+}
+.search-container{
+    background-color: grey;
+}
+.search-container{
+    background-color: #222;
+    padding: 20px;
+    color: #fff;
+}
+.search-container input {
+    width: 80%;
+    line-height: 22px;
+    font-size: 17px;
+   
+}
+.search-container icon{
+    height: 50px;
+}
+.shop{
+    display: flex;
+}
+.product-container{
+    width: 80%;
+    margin-left: 25px;
+    margin-right: 5px;
+    border-right: 1px solid lightgrey;
+}
+.product{
+    display: flex;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-bottom: 1px solid lightslategrey;
+}
+.product-detail{
+    margin-left: 10px;
+
+}
+.product-name{
+    color:blue;
+    font-weight: 400;
+    
+}
+.add-to-cart{
+    background-color: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    width: 200px;
+    height: 26px;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+}
+.order-sum-cart{
+    margin-left: 30px;
+}
+.cart{
+    margin-left: 5px;
+    
+}
+.cart h3, p{
+    text-align: center;
+}
+.cart table{
+    font-size: 14px;
+    text-align: left;
+}
+.grand-total{
+    color: #b12704;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    border-top: 1px solid gray;
+    margin-top: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* item containers */
